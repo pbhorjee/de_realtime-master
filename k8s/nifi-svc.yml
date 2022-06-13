@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nifi
+  namespace: prod
+spec:
+  type: LoadBalancer 
+  ports:
+    - name: nifi
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: nifi
