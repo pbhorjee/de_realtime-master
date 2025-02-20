@@ -1,4 +1,4 @@
-# A Sample End-to-End Streaming Pipeline with Automated ETL and near-real time Data VYisualization
+# A Sample End-to-End Streaming Pipeline with Automated ETL and near-real time Data Visualization
 
 ## Spark Streaming Application With Debezium CDC and Kafka, Hudi Data Lake, Glue Data Catalog, and Superset data viz
 
